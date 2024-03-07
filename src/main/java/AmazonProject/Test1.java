@@ -63,11 +63,11 @@ public class Test1 {
 	    
 	    //Locating And SendKeys and press enter after Passing email address
 	    WebElement email =driver.findElement(By.name("email"));
-	    email.sendKeys("nandankumar9008@gmail.com",Keys.ENTER);
+	    email.sendKeys("nan******@gmail.com",Keys.ENTER);
 	    
 	    //Locating and SendKeys And Press Enter After Passing Password
 	    WebElement password =driver.findElement(By.name("password"));
-	    password.sendKeys("Nandan@9008",Keys.ENTER);
+	    password.sendKeys("123@****",Keys.ENTER);
 	    
 	    //Adding implict Wait
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
@@ -76,7 +76,7 @@ public class Test1 {
 	    driver.findElement(By.xpath("/html/body/div[5]/div[1]/div/div[2]/div/div/div[1]/div[1]/div/div[6]/div/div[3]/div/div/div[2]/div/div[2]/div/div/form/div/div[1]/div/div/div[4]/div/div/div/div/div[1]/div/label/input")).click();
 	    
 	    //Locate and SendKeys of UPI ID
-	    driver.findElement(By.name("__sif_encryptedVPA_collect")).sendKeys("9008522376@ybl");
+	    driver.findElement(By.name("__sif_encryptedVPA_collect")).sendKeys("**********@ybl");
 	    
 	    //Locate And Click on Verify button
 	    driver.findElement(By.name("ppw-widgetEvent:ValidateUpiIdEvent")).click();
